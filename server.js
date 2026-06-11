@@ -4,7 +4,7 @@ const fetch = require("node-fetch");
 // ====================================================
 // ⚙️ غيّر هذا الرابط برابط movies.json على GitHub
 // ====================================================
-const DATA_URL = "https://raw.githubusercontent.com/arab2A/stream/refs/heads/main/movies.json";
+const DATA_URL = "https://raw.githubusercontent.com/arab2A/stream/main/movies.json";
 
 const manifest = {
   id: "community.arabp2p.addon",
