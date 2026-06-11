@@ -1,0 +1,13 @@
+{
+  "name": "arabp2p-stremio-addon-seriesfix",
+  "version": "2.0.1",
+  "description": "Stremio addon for movies and series with torrent infoHash/fileIdx support",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "stremio-addon-sdk": "^1.6.10",
+    "node-fetch": "^2.6.9"
+  }
+}
