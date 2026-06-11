@@ -1,7 +1,7 @@
 const { addonBuilder, serveHTTP } = require("stremio-addon-sdk");
 const fetch = require("node-fetch");
 
-const DATA_URL = "https://raw.githubusercontent.com/arab2A/stream/main/movies.json";
+const DATA_URL = "https://raw.githubusercontent.com/arab2A/stream/main/data.json";
 
 const manifest = {
   id: "community.arabp2p.addon.seriesfix",
